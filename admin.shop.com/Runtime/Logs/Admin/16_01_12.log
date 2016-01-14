@@ -1,0 +1,1902 @@
+[ 2016-01-12T18:03:39+08:00 ] 192.168.3.187 /index.php/Admin/Supplier/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001978s ]
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2016-01-12T18:12:24+08:00 ] 192.168.3.187 /index.php/Admin/Supplier/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+ERR: SQLSTATE[HY000] [2000] mysqlnd cannot connect to MySQL 4.1+ using the old insecure authentication. Please use an administration tool to reset your password with the command SET PASSWORD = PASSWORD('your_existing_password'). This will store a new, and more secure, hash value in mysql.user. If this user is used in other scripts executed by PHP 5.2 or earlier you might need to remove the old-passwords flag from your my.cnf file
+
+[ 2016-01-12T18:46:28+08:00 ] 192.168.3.187 /index.php/Admin/Supplier/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'shop1009'
+
+[ 2016-01-12T18:52:35+08:00 ] 192.168.3.187 /index.php/Admin/Supplier/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0046s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000528s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001533s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001482s ]
+
+[ 2016-01-12T22:29:04+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000348s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003589s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.037487s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.038525s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010817s ]
+
+[ 2016-01-12T22:29:20+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000429s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0033s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 2,2   [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000455s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000956s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002168s ]
+
+[ 2016-01-12T22:29:22+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000336s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.012938s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005946s ]
+
+[ 2016-01-12T22:29:23+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000712s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `supplier` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001808s ]
+
+[ 2016-01-12T22:29:51+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000495s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001974s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000591s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000997s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001770s ]
+
+[ 2016-01-12T22:29:54+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/changeStatus/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000367s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001280s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0031s ]
+SQL: UPDATE `supplier` SET `status`='0' WHERE `id` IN ('1','2') [ RunTime:0.0031s ]
+
+[ 2016-01-12T22:29:55+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000920s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001853s ]
+
+[ 2016-01-12T22:29:58+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/changeStatus/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0026s ]
+SQL: UPDATE `supplier` SET `status`='1' WHERE `id` IN ('1','2') [ RunTime:0.0028s ]
+
+[ 2016-01-12T22:29:59+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000279s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002499s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000591s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002032s ]
+
+[ 2016-01-12T22:30:01+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000179s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000853s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c0bfe95debcb0d5fe8fb152b5dc7d70c.php 第 26 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c0bfe95debcb0d5fe8fb152b5dc7d70c.php 第 33 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c0bfe95debcb0d5fe8fb152b5dc7d70c.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001788s ]
+
+[ 2016-01-12T22:35:25+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000338s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000547s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001473s ]
+
+[ 2016-01-12T22:35:34+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002051s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0021s ]
+SQL: show full columns from brand [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001740s ]
+
+[ 2016-01-12T22:35:38+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0020s ]
+SQL: show full columns from brand [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2016-01-12T22:35:39+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0017s ]
+SQL: show full columns from brand [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2016-01-12T22:35:39+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000120s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0016s ]
+SQL: show full columns from brand [ RunTime:0.0031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001805s ]
+
+[ 2016-01-12T22:35:40+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0030s ]
+SQL: show full columns from brand [ RunTime:0.0036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2016-01-12T22:35:41+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0025s ]
+SQL: show full columns from brand [ RunTime:0.0032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2016-01-12T22:36:09+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000851s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000442s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001757s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002198s ]
+
+[ 2016-01-12T22:36:12+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000242s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003731s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0029s ]
+SQL: show full columns from brand [ RunTime:0.0036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001586s ]
+
+[ 2016-01-12T22:38:40+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000248s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000551s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002014s ]
+
+[ 2016-01-12T22:38:43+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002565s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0033s ]
+SQL: show full columns from brand [ RunTime:0.0029s ]
+
+[ 2016-01-12T22:39:00+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001564s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0035s ]
+SQL: show full columns from brand [ RunTime:0.0061s ]
+
+[ 2016-01-12T22:39:38+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001829s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002735s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003120s ]
+
+[ 2016-01-12T22:39:41+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000304s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0024s ]
+SQL: show full columns from brand [ RunTime:0.0050s ]
+
+[ 2016-01-12T22:40:04+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000778s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0025s ]
+SQL: show full columns from brand [ RunTime:0.0069s ]
+
+[ 2016-01-12T22:41:13+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002477s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0027s ]
+SQL: show full columns from brand [ RunTime:0.0053s ]
+
+[ 2016-01-12T22:41:17+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000590s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006553s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000434s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001591s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2016-01-12T22:41:20+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001553s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0064s ]
+SQL: show full columns from brand [ RunTime:0.0052s ]
+
+[ 2016-01-12T22:41:36+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0026s ]
+SQL: show full columns from brand [ RunTime:0.0072s ]
+
+[ 2016-01-12T22:42:28+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000279s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0040s ]
+SQL: show full columns from brand [ RunTime:0.0050s ]
+
+[ 2016-01-12T22:42:54+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000263s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0040s ]
+SQL: show full columns from brand [ RunTime:0.0041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001965s ]
+
+[ 2016-01-12T22:43:51+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0018s ]
+SQL: show full columns from brand [ RunTime:0.0043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002767s ]
+
+[ 2016-01-12T22:44:07+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000483s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002590s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0028s ]
+SQL: show full columns from brand [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001902s ]
+
+[ 2016-01-12T22:44:45+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0018s ]
+SQL: show full columns from brand [ RunTime:0.0024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002510s ]
+
+[ 2016-01-12T22:45:10+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000389s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0027s ]
+SQL: show full columns from brand [ RunTime:0.0044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001959s ]
+
+[ 2016-01-12T22:45:52+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001519s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000488s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001024s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2016-01-12T22:46:08+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003146s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000925s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002109s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003448s ]
+
+[ 2016-01-12T22:46:10+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/changeStatus/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000232s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0021s ]
+SQL: UPDATE `supplier` SET `status`='0' WHERE `id` IN ('1','2') [ RunTime:0.0022s ]
+
+[ 2016-01-12T22:46:11+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0031s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000947s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005124s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2016-01-12T22:46:13+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/changeStatus/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0043s ]
+SQL: UPDATE `supplier` SET `status`='1' WHERE `id` IN ('1','2') [ RunTime:0.0026s ]
+
+[ 2016-01-12T22:46:14+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000231s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000458s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001662s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001619s ]
+
+[ 2016-01-12T22:46:33+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000192s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000872s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001966s ]
+
+[ 2016-01-12T22:46:39+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0021s ]
+SQL: show full columns from brand [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2016-01-12T22:46:50+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0021s ]
+SQL: show full columns from brand [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2016-01-12T22:47:18+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004007s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0031s ]
+SQL: show full columns from brand [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001757s ]
+
+[ 2016-01-12T22:47:21+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002478s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002417s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002966s ]
+
+[ 2016-01-12T22:47:34+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003252s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000709s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001515s ]
+
+[ 2016-01-12T22:47:37+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0048s ]
+SQL: show full columns from brand [ RunTime:0.0055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001377s ]
+
+[ 2016-01-12T22:48:38+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001293s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0044s ]
+SQL: show full columns from brand [ RunTime:0.0038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001431s ]
+
+[ 2016-01-12T22:48:40+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000596s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001515s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2016-01-12T23:06:04+08:00 ] 192.168.1.101 /index.php/Admin/Gii/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000482s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+ERR: 非法操作:edit
+
+[ 2016-01-12T23:06:25+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000424s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001702s ]
+
+[ 2016-01-12T23:06:59+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002017s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'edit' [ RunTime:0.0030s ]
+NOTIC: [8] Undefined offset: 0 /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+ERR: 1146:Table 'shop1009.edit' doesn't exist
+ [ SQL语句 ] : show full columns from edit
+ERR: 1146:Table 'shop1009.edit' doesn't exist
+ [ SQL语句 ] : show full columns from edit
+
+[ 2016-01-12T23:07:47+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'supplir' [ RunTime:0.0022s ]
+NOTIC: [8] Undefined offset: 0 /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+ERR: 1146:Table 'shop1009.supplir' doesn't exist
+ [ SQL语句 ] : show full columns from supplir
+ERR: 1146:Table 'shop1009.supplir' doesn't exist
+ [ SQL语句 ] : show full columns from supplir
+
+[ 2016-01-12T23:08:11+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'Supplier' [ RunTime:0.0031s ]
+ERR: 1146:Table 'shop1009.Supplier' doesn't exist
+ [ SQL语句 ] : show full columns from Supplier
+ERR: 1146:Table 'shop1009.Supplier' doesn't exist
+ [ SQL语句 ] : show full columns from Supplier
+
+[ 2016-01-12T23:16:06+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001666s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'Supplier' [ RunTime:0.0021s ]
+ERR: 1146:Table 'shop1009.Supplier' doesn't exist
+ [ SQL语句 ] : show full columns from Supplier
+ERR: 1146:Table 'shop1009.Supplier' doesn't exist
+ [ SQL语句 ] : show full columns from Supplier
+
+[ 2016-01-12T23:16:09+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002012s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'Supplier' [ RunTime:0.0157s ]
+ERR: 1146:Table 'shop1009.Supplier' doesn't exist
+ [ SQL语句 ] : show full columns from Supplier
+ERR: 1146:Table 'shop1009.Supplier' doesn't exist
+ [ SQL语句 ] : show full columns from Supplier
+
+[ 2016-01-12T23:16:18+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000210s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'Supplier' [ RunTime:0.0023s ]
+ERR: 1146:Table 'shop1009.Supplier' doesn't exist
+ [ SQL语句 ] : show full columns from Supplier
+ERR: 1146:Table 'shop1009.Supplier' doesn't exist
+ [ SQL语句 ] : show full columns from Supplier
+
+[ 2016-01-12T23:17:02+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000915s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'Supplier' [ RunTime:0.0022s ]
+ERR: 1146:Table 'shop1009.Supplier' doesn't exist
+ [ SQL语句 ] : show full columns from Supplier
+ERR: 1146:Table 'shop1009.Supplier' doesn't exist
+ [ SQL语句 ] : show full columns from Supplier
+
+[ 2016-01-12T23:17:08+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000243s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001869s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'supplier' [ RunTime:0.0033s ]
+SQL: show full columns from supplier [ RunTime:0.0034s ]
+NOTIC: [2] require(/home/www/shop/admin.shop.com/Template/endit.tpl): failed to open stream: No such file or directory /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 73 行.
+
+[ 2016-01-12T23:17:59+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'supplier' [ RunTime:0.0028s ]
+SQL: show full columns from supplier [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: option_values /home/www/shop/admin.shop.com/Template/edit.tpl 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/shop/admin.shop.com/Template/edit.tpl 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001528s ]
+
+[ 2016-01-12T23:18:23+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000305s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'supplier' [ RunTime:0.0023s ]
+SQL: show full columns from supplier [ RunTime:0.0027s ]
+NOTIC: [8] Undefined index: option_values /home/www/shop/admin.shop.com/Template/edit.tpl 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/shop/admin.shop.com/Template/edit.tpl 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002397s ]
+
+[ 2016-01-12T23:19:15+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000413s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'supplier' [ RunTime:0.0025s ]
+SQL: show full columns from supplier [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: option_values /home/www/shop/admin.shop.com/Template/edit.tpl 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/shop/admin.shop.com/Template/edit.tpl 第 26 行.
+
+[ 2016-01-12T23:22:57+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000197s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'supplier' [ RunTime:0.0036s ]
+SQL: show full columns from supplier [ RunTime:0.0061s ]
+NOTIC: [8] Undefined index: option_values /home/www/shop/admin.shop.com/Template/edit.tpl 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/shop/admin.shop.com/Template/edit.tpl 第 26 行.
+
+[ 2016-01-12T23:23:09+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006417s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'supplier' [ RunTime:0.0021s ]
+SQL: show full columns from supplier [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: option_values /home/www/shop/admin.shop.com/Template/edit.tpl 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/shop/admin.shop.com/Template/edit.tpl 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002536s ]
+
+[ 2016-01-12T23:23:24+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000409s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0035s ]
+ERR: 模板不存在:/home/www/shop/admin.shop.com/Application/Admin/View/Supplier/edit.html
+
+[ 2016-01-12T23:23:30+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000431s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000860s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2016-01-12T23:23:31+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003857s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0059s ]
+ERR: 模板不存在:/home/www/shop/admin.shop.com/Application/Admin/View/Supplier/edit.html
+
+[ 2016-01-12T23:23:48+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000180s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0044s ]
+ERR: 模板不存在:/home/www/shop/admin.shop.com/Application/Admin/View/Supplier/edit.html
+
+[ 2016-01-12T23:23:52+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000612s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000954s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2016-01-12T23:23:53+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000239s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002509s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0033s ]
+ERR: 模板不存在:/home/www/shop/admin.shop.com/Application/Admin/View/Supplier/edit.html
+
+[ 2016-01-12T23:23:57+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000222s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001940s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `supplier` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0030s ]
+ERR: 模板不存在:/home/www/shop/admin.shop.com/Application/Admin/View/Supplier/edit.html
+
+[ 2016-01-12T23:24:28+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000318s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'supplier' [ RunTime:0.0030s ]
+SQL: show full columns from supplier [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: option_values /home/www/shop/admin.shop.com/Template/edit.tpl 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/shop/admin.shop.com/Template/edit.tpl 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002976s ]
+
+[ 2016-01-12T23:24:38+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/edit/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `supplier` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000650s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001545s ]
+
+[ 2016-01-12T23:24:40+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000579s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001866s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001819s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002483s ]
+
+[ 2016-01-12T23:24:41+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001411s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c0bfe95debcb0d5fe8fb152b5dc7d70c.php 第 26 行.
+NOTIC: [8] Undefined variable: sort /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c0bfe95debcb0d5fe8fb152b5dc7d70c.php 第 32 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c0bfe95debcb0d5fe8fb152b5dc7d70c.php 第 38 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c0bfe95debcb0d5fe8fb152b5dc7d70c.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002669s ]
+
+[ 2016-01-12T23:24:43+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000232s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000952s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002431s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001678s ]
+
+[ 2016-01-12T23:24:44+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000602s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001305s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c0bfe95debcb0d5fe8fb152b5dc7d70c.php 第 26 行.
+NOTIC: [8] Undefined variable: sort /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c0bfe95debcb0d5fe8fb152b5dc7d70c.php 第 32 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c0bfe95debcb0d5fe8fb152b5dc7d70c.php 第 38 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/c0bfe95debcb0d5fe8fb152b5dc7d70c.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2016-01-12T23:24:45+08:00 ] 192.168.1.101 /index.php/Admin/Supplier/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000227s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006001s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001824s ]
+
+[ 2016-01-12T23:27:55+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001711s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'supplier' [ RunTime:0.0074s ]
+SQL: show full columns from supplier [ RunTime:0.0062s ]
+NOTIC: [8] Undefined index: option_values /home/www/shop/admin.shop.com/Template/edit.tpl 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/shop/admin.shop.com/Template/edit.tpl 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000578s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001294s ]
+
+[ 2016-01-12T23:27:56+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000178s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007585s ]
+
+[ 2016-01-12T23:28:01+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'supplier' [ RunTime:0.0057s ]
+SQL: show full columns from supplier [ RunTime:0.0066s ]
+NOTIC: [8] Undefined index: option_values /home/www/shop/admin.shop.com/Template/edit.tpl 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/shop/admin.shop.com/Template/edit.tpl 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000903s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001515s ]
+
+[ 2016-01-12T23:28:03+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000220s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2016-01-12T23:30:15+08:00 ] 192.168.1.101 /index.php/Admin/brand/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `brand` WHERE `status` > -1 LIMIT 0,2   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000844s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001798s ]
+NOTIC: [8] Undefined index: keyword /home/www/shop/admin.shop.com/Runtime/Cache/Admin/e8b323c5d8440767130c19fdf505bb52.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2016-01-12T23:30:20+08:00 ] 192.168.1.101 /index.php/Admin/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000792s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001740s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000851s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002986s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 26 行.
+NOTIC: [8] Undefined variable: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 33 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 47 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001796s ]
+
+[ 2016-01-12T23:42:49+08:00 ] 192.168.1.101 /index.php/Admin/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000179s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000755s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001122s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 26 行.
+NOTIC: [8] Undefined variable: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 33 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 52 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001956s ]
+
+[ 2016-01-12T23:42:54+08:00 ] 192.168.1.101 /index.php/Admin/Brand/__UPLOADIFY__/uploadify.swf?preventswfcaching=1452613374891
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000207s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015394s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+ERR: 非法操作:__UPLOADIFY__
+
+[ 2016-01-12T23:42:54+08:00 ] 192.168.1.101 /index.php/Admin/Brand/__UPLOADIFY__/uploadify.swf?preventswfcaching=1452613374891
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004491s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0022s ]
+ERR: 非法操作:__UPLOADIFY__
+
+[ 2016-01-12T23:44:01+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0018s ]
+SQL: show full columns from brand [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: option_values /home/www/shop/admin.shop.com/Template/edit.tpl 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/shop/admin.shop.com/Template/edit.tpl 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003210s ]
+
+[ 2016-01-12T23:44:10+08:00 ] 192.168.1.101 /index.php/Admin/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000604s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002791s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001639s ]
+
+[ 2016-01-12T23:44:51+08:00 ] 192.168.1.101 /index.php/Admin/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000396s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000569s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003537s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 26 行.
+NOTIC: [8] Undefined variable: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 32 行.
+NOTIC: [8] Undefined variable: sort /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 44 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 50 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007537s ]
+
+[ 2016-01-12T23:47:26+08:00 ] 192.168.1.101 /index.php/Admin/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002296s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000377s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001414s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 26 行.
+NOTIC: [8] Undefined variable: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 33 行.
+NOTIC: [8] Undefined variable: sort /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 50 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 57 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001870s ]
+
+[ 2016-01-12T23:47:26+08:00 ] 192.168.1.101 /index.php/Admin/Brand/__UPLOADIFY__/jquery.uploadify.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002979s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0027s ]
+ERR: 非法操作:__UPLOADIFY__
+
+[ 2016-01-12T23:47:42+08:00 ] 192.168.1.101 /index.php/Admin/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000768s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001813s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 26 行.
+NOTIC: [8] Undefined variable: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 33 行.
+NOTIC: [8] Undefined variable: sort /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 50 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 57 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.033035s ]
+
+[ 2016-01-12T23:47:43+08:00 ] 192.168.1.101 /index.php/Admin/Brand/__UPLOADIFY__/uploadify.swf?preventswfcaching=1452613664699
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0510s ]
+ERR: 非法操作:__UPLOADIFY__
+
+[ 2016-01-12T23:47:43+08:00 ] 192.168.1.101 /index.php/Admin/Brand/__UPLOADIFY__/uploadify.swf?preventswfcaching=1452613664699
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000134s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026762s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+ERR: 非法操作:__UPLOADIFY__
+
+[ 2016-01-12T23:48:23+08:00 ] 192.168.1.101 /index.php/Admin/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000272s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001971s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 26 行.
+NOTIC: [8] Undefined variable: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 33 行.
+NOTIC: [8] Undefined variable: sort /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 53 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 60 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004556s ]
+
+[ 2016-01-12T23:48:24+08:00 ] 192.168.1.101 /index.php/Admin/Brand/__UPLOADIFY__/uploadify.swf?preventswfcaching=1452613705653
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.045469s ]
+INFO: [ app_init ] --END-- [ RunTime:0.067415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0032s ]
+ERR: 非法操作:__UPLOADIFY__
+
+[ 2016-01-12T23:48:24+08:00 ] 192.168.1.101 /index.php/Admin/Brand/__UPLOADIFY__/uploadify.swf?preventswfcaching=1452613705653
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0060s ]
+ERR: 非法操作:__UPLOADIFY__
+
+[ 2016-01-12T23:54:23+08:00 ] 192.168.1.101 /index.php/Admin/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002165s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000389s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 28 行.
+NOTIC: [8] Undefined variable: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 35 行.
+NOTIC: [8] Undefined variable: sort /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 55 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 62 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001771s ]
+
+[ 2016-01-12T23:54:24+08:00 ] 192.168.1.101 /index.php/Admin/Brand/__UPLOADIFY__/uploadify.swf?preventswfcaching=1452614066056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002209s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0044s ]
+ERR: 非法操作:__UPLOADIFY__
+
+[ 2016-01-12T23:54:24+08:00 ] 192.168.1.101 /index.php/Admin/Brand/__UPLOADIFY__/uploadify.swf?preventswfcaching=1452614066056
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001542s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0020s ]
+ERR: 非法操作:__UPLOADIFY__
+
+[ 2016-01-12T23:56:38+08:00 ] 192.168.1.101 /index.php/Admin/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001839s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0047s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001828s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 28 行.
+NOTIC: [8] Undefined variable: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 35 行.
+NOTIC: [8] Undefined variable: sort /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 55 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 62 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001816s ]
+
+[ 2016-01-12T23:56:39+08:00 ] 192.168.1.101 /index.php/Admin/Brand/__UPLOADIFY__/uploadify.swf?preventswfcaching=1452614200842
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008682s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0054s ]
+ERR: 非法操作:__UPLOADIFY__
+
+[ 2016-01-12T23:56:39+08:00 ] 192.168.1.101 /index.php/Admin/Brand/__UPLOADIFY__/uploadify.swf?preventswfcaching=1452614200842
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0038s ]
+ERR: 非法操作:__UPLOADIFY__
+
+[ 2016-01-12T23:56:52+08:00 ] 192.168.1.101 /index.php/Admin/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000395s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001886s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 28 行.
+NOTIC: [8] Undefined variable: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 35 行.
+NOTIC: [8] Undefined variable: sort /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 55 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 62 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001933s ]
+
+[ 2016-01-12T23:56:53+08:00 ] 192.168.1.101 /index.php/Admin/Brand/__UPLOADIFY__/uploadify.swf?preventswfcaching=1452614214673
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000103s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0033s ]
+ERR: 非法操作:__UPLOADIFY__
+
+[ 2016-01-12T23:56:53+08:00 ] 192.168.1.101 /index.php/Admin/Brand/__UPLOADIFY__/uploadify.swf?preventswfcaching=1452614214673
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003139s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0073s ]
+ERR: 非法操作:__UPLOADIFY__
+
+[ 2016-01-12T23:57:11+08:00 ] 192.168.1.101 /index.php/Admin/Brand/__UPLOADIFY__/uploadify.swf?preventswfcaching=1452614214673
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000190s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003105s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0041s ]
+ERR: 非法操作:__UPLOADIFY__
+
+[ 2016-01-12T23:58:14+08:00 ] 192.168.1.101 /index.php/Admin/Brand/__UPLOADIFY__/uploadify.swf?preventswfcaching=1452614214673
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0070s ]
+ERR: 非法操作:__UPLOADIFY__
+
+[ 2016-01-12T23:59:06+08:00 ] 192.168.1.101 /index.php/Admin/Brand/__UPLOADIFY__/uploadify.swf?preventswfcaching=1452614214673
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000288s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004258s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0085s ]
+ERR: 非法操作:__UPLOADIFY__
+
+[ 2016-01-12T23:59:09+08:00 ] 192.168.1.101 /index.php/Admin/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002147s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000878s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001954s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 28 行.
+NOTIC: [8] Undefined variable: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 35 行.
+NOTIC: [8] Undefined variable: sort /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 55 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 62 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004137s ]
+
+[ 2016-01-12T23:59:11+08:00 ] 192.168.1.101 /index.php/Admin/Brand/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002085s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0027s ]
+ERR: 非法操作:index.php
+
